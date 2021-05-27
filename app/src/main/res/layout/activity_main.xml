@@ -76,9 +76,14 @@
     </LinearLayout>
 
     //Так и не смог сменить цвет у календаря.
+    //UPD. Цвета меняются, но как-то очень странно. Смог лишь единожды
+    //сменить цвет текста на белый, после чего он перестал меняться.
+    //при этом оставил лишь параметр colorAccent
+
     <CalendarView
         android:id="@+id/calendarView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:theme="@style/MyCalendarView" />
 
 </LinearLayout>

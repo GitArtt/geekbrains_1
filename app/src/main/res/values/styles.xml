@@ -17,4 +17,8 @@
         <item name="colorControlNormal">@android:color/darker_gray</item>
         <item name="colorControlActivated">#00EB62</item>
     </style>
+
+    <style name="MyCalendarView" parent="Theme.AppCompat">
+        <item name="colorAccent">#00EB62</item>
+    </style>
 </resources>
