@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MySwitch" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">#00EB62</item>
+
+        <item name="colorSwitchThumbNormal">@android:color/black</item>
+
+        <item name="android:colorForeground">@android:color/black</item>
+    </style>
+
+    <style name="MyCheckBox" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@android:color/black</item>
+        <item name="colorControlActivated">#00EB62</item>
+    </style>
+
+    <style name="MyToggleButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@android:color/darker_gray</item>
+        <item name="colorControlActivated">#00EB62</item>
+    </style>
+</resources>
